@@ -44979,7 +44979,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 18.203125
+  orthographic size: 7.171875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -73819,9 +73819,17 @@ MonoBehaviour:
     m_MaxNetSimulatorTimeout: 12000
   m_Channels: 0400000001000000
   m_UseWebSockets: 0
+  m_UseSimulator: 0
+  m_SimulatedLatency: 1
+  m_PacketLossPercentage: 0
   m_MaxBufferedPackets: 512
   m_AllowFragmentation: 1
+  m_MatchHost: mm.unet.unity3d.com
+  m_MatchPort: 443
+  matchName: default
+  matchSize: 4
   isNetworkActive: 0
+  matchMaker: {fileID: 0}
   state: 0
   uiPopup: {fileID: 1165640891}
   loginAccount: 
